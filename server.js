@@ -10,12 +10,12 @@ app.get('/', (req, res) => {
 app.listen(process.env.PORT || 3000, () => {
   console.log('Web server is live.');
 });
-
 const botOptions = {
   host: 'GreekS2Smp.aternos.me', 
   port: 47615,                      
   username: 'GreeksmpS2',              
-  version: false
+  version: '1.21.1',
+  auth: 'offline'
 };
 
 let bot;
