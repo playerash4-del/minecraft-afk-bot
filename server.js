@@ -15,7 +15,7 @@ const botOptions = {
   host: 'GreekS2Smp.aternos.me', 
   port: 47615,                      
   username: 'GreeksmpS2',              
-  version: '1.21.1' 
+  version: '26.2' 
 };
 
 let bot;
